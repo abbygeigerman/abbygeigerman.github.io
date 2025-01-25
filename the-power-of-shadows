@@ -14,9 +14,9 @@
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="The_power_of_shadows.html">The Power of Shadows</a>
-    <a href="links.html">Contact</a>
+    <a href="home">Home</a>
+    <a href="the-power-of-shadows">The Power of Shadows</a>
+    <a href="links">Contact</a>
 </nav>
 
 <div class="container">
