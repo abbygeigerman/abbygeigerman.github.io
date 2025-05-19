@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: ABBY GEIGERMAN
+title: A.G.
 
 # Your name to show in the footer
 author: Abby Geigerman
@@ -174,7 +174,7 @@ footer-hover-col: "#7A9E7E"
 #gtag: "G-XXXXXXXXXX"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-#cloudflare_analytics: ""
+# cloudflare_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
