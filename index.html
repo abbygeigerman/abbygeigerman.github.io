@@ -1,85 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official website of Author Abby Geigerman">
-    <title>Abby Geigerman - Official Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<header>
-    <h1 style="font-family: Arial, Helvetica, sans-serif;">Abby Geigerman</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="the-power-of-shadows.html">The Power of Shadows</a>
-    <a href="links.html">Contact</a>
-</nav>
-
-<div class="container">
-
-    <!-- Biography Section -->
-    <section id="bio" class="bio">
-        <h2 style="font-family: Arial, Helvetica, sans-serif;">Biography</h2>
-        <img src="author-image.jpg" style="margin-bottom:3px" alt="Abby Geigerman">
-        <p>In addition to being a writer, I’m a tea-loving hopeless romantic, active BookTok-er, and recent graduate from Rice University with a degree in Computer Science. I’ve had a passion for writing fantastical, immersive stories since middle school and particularly love exploring diverse character relationships in grand magical adventures.
-            <br><br>
-            I just finished my first novel, The Power of Shadows, a YA fantasy novel, and am currently working on a rivals to lovers story set in a magical school where people defy the laws of physics.
-            <br><br>
-            My writing tends to include a lot of cute romance, badass women, unique magic systems, atmospheric locations, found families, and complicated family dynamics. I am also a sucker for enemies to lovers, rivals to lovers, or any variation of the two!
-            <br><br>
-            Some of my favorites include Babel by R.F. Kuang, Seven Days in June by Tia Williams, A Court of Mist and Fury by Sarah J Maas, and The Atlas Six by Olivie Blake. You’ll never catch me without a beverage in hand (usually tea, coffee, kombucha, or any combination of the three) and at least one or two books within reach. I have shelves, but I still insist on stacking them on my desk like a dragon hoarding treasure. Please contact me if you have any book recommendations!</p>
-    </section>
+---
+layout: home
+title: Abby Geigerman
+subtitle: Fantasy author, tea drinker, book lover 
+---
 
     <!-- Books Section -->
      <!-- Book Showcase Section -->
-<section id="book-showcase" style="text-align: center; margin: 50px 0;">
-    <h2 style="font-family: Arial, Helvetica, sans-serif;">Explore My Books</h2>
-    <p style="margin-bottom:20px">Discover the worlds I've created. Click on any book of the links to learn more!</p>
-  
-    <div style="display: flex; justify-content: center; gap: 20px;">
-  
-      <!-- Book 1 -->
-      <div style="width: 200px;">
-        <img src="the_power_of_shadows_cover.jpg" alt="The Power of Shadows" style="width: 100%; height: auto;">
-        <h3>The Power of Shadows</h3>
-        <p>YA Romantasy with castles, seasonal magic, and a spunky heroine. Out now!</p>
-        <a href="the-power-of-shadows.html" style="text-decoration: none; color: green;">Learn More</a>
-      </div>
-  
-      <!-- Book 2 -->
-      <div style="width: 200px;">
-        <img src="Potentia-Stand-in.webp" alt="Potentia" style="width: 100%; height: auto;">
-        <h3>Potentia</h3>
-        <p>Dark academia fantasy about defying the laws of physics</p>
-        <p style="color:darkgreen">Winter 2025</p>
-      </div>
-  
-      <!-- Book 3 -->
-      <div style="width: 200px;">
-        <img src="The-Power-of-Shadows-Book-2.webp" alt="The Power of Shadows #2" style="width: 100%; height: auto;">
-        <h3>The Power of Shadows #2</h3>
-        <p>The second installment in Estyn's story...</p>
-        <p style="color:darkgreen">Spring 2026</p>
-      </div>
-  
-    </div>
-  </section>
+     <section id="book-showcase" style="text-align: center; margin: 50px 0;">
+        <h2>Explore My Books</h2>
+        <p style="margin-bottom:20px">Discover the worlds I've created. Click on any book of the links to learn more!</p>
+      
+        <div style="display: flex; justify-content: center; gap: 20px;">
+      
+          <!-- Book 1 -->
+          <div style="width: 200px;">
+            <a href="2025-05-18-the-power-of-shadows">
+            <img src="assets/img/the_power_of_shadows_cover.jpg" alt="The Power of Shadows" style="width: 100%; height: auto;">
+            </a>
+            <h3>The Power of Shadows</h3>
+            <p>YA Romantasy with castles, seasonal magic, and a spunky heroine. Out now!</p>
+            <a href="2025-05-18-the-power-of-shadows">Learn More</a>
+          </div>
+      
+          <!-- Book 2 -->
+          <div style="width: 200px;">
+            <img src="assets/img/Potentia-Stand-in.webp" alt="Potentia" style="width: 100%; height: auto;">
+            <h3>Potentia</h3>
+            <p>Dark academia fantasy about defying the laws of physics</p>
+            <p style="color:#3C721D">Beta Reading<br>Aug 2025</p>
+          </div>
+      
+          <!-- Book 3 -->
+          <div style="width: 200px;">
+            <img src="assets/img/The-Power-of-Shadows-Book-2.webp" alt="The Power of Shadows #2" style="width: 100%; height: auto;">
+            <h3>The Power of Shadows #2</h3>
+            <p>The second installment in Estyn's story...</p>
+            <p style="color:#3C721D">Spring 2026</p>
+          </div>
+      
+        </div>
+      </section>
 
-    <p align="center"><iframe src="https://abbygeigerman.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe></iframe></p>
+<div style="position: relative; padding-bottom: 66.66%; height: 0; overflow: hidden; max-width: 100%; margin: 0 auto;">
+    <iframe 
+      src="https://abbygeigerman.substack.com/embed"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:1px solid #EEE; background:white;"
+      frameborder="0"
+      scrolling="no"
+      allowfullscreen>
+    </iframe>
+  </div>
 
-</div>
-
-<footer>
-    <p>&copy; 2025 Abby Geigerman. All Rights Reserved.</p>
-    <p>Follow me on: 
-        <a href="https://www.youtube.com/channel/UCmKTTNOQNv9WHHgMGvEQGXg" style="text-decoration: none; color: green;" target="_blank">Youtube</a> | 
-        <a href="https://www.instagram.com/abbygeigerman" style="text-decoration: none; color: green;" target="_blank">Instagram</a>
-    </p>
-</footer>
-
-</body>
-</html>
