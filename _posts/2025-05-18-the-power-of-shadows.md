@@ -4,7 +4,7 @@ title: The Power of Shadows
 subtitle: A YA Fantasy Romance novel
 description: Book description for The Power of Shadows by Abby Geigerman, a Young Adult fantasy novel about a princess rescuing her brother from a warring kingdom published in 2023. Links to purchase included.
 thumbnail-img: /assets/img/the_power_of_shadows_cover.jpg
-share-img: /assets/img/path.jpg
+share-img: /assets/img/the_power_of_shadows_cover.jpg
 tags: [books]
 author: Abby Geigerman
 ---
