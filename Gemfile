@@ -18,3 +18,7 @@ gemspec
 gem "webrick", "~> 1.9"
 
 gem "bigdecimal", "~> 3.1"
+
+gem 'jekyll-sitemap'
+
+gem 'jekyll-seo-tag'
