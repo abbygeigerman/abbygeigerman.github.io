@@ -22,3 +22,5 @@ gem "bigdecimal", "~> 3.1"
 gem 'jekyll-sitemap'
 
 gem 'jekyll-seo-tag'
+
+gem 'jekyll-compress-images'
